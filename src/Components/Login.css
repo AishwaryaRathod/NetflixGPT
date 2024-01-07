@@ -1,0 +1,65 @@
+.loginImg{
+    /* filter: brightness(0.4); */
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/c31c3123-3df7-4359-8b8c-475bd2d9925d/15feb590-3d73-45e9-9e4a-2eb334c83921/IN-en-20231225-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.414);
+    background-blend-mode: multiply;
+}
+form{
+    bottom: 650px;
+   background-color: rgba(0, 0, 0, 0.729);
+   display: flex;
+   flex-direction: column;
+   width: 430px;
+   border-radius: 10px;
+   height: 480px;
+   z-index: 1111;
+   
+    
+}
+.loginImg input{
+    
+    border-radius: 4px;
+    width: 330px;
+    position: relative;
+    left: 50px;
+    background-color: rgb(141, 141, 141);
+    color: white;
+    
+}
+.loginImg input::placeholder{
+    color: white;
+}
+.loginImg{
+    h1{
+        font-size: 30px;
+        font-weight: 400;
+        color: white;
+        position: relative;
+        left: 40px;
+
+    }
+}
+
+.loginImg button{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border-radius: 4px;
+    width: 330px;
+    position: relative;
+    left: 50px;
+}
+.loginImg p{
+    color: rgb(252, 252, 252);
+    position: relative;
+    left: 50px;
+    top: 50px;
+    cursor: pointer;
+}
+.loginImg  p span{
+    color: white;
+}
